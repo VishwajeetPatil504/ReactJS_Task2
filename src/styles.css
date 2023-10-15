@@ -1,0 +1,32 @@
+body {
+  background: linear-gradient(to right, #ff4343, #ef0cc2); /* Background color changed from pink to red */
+}
+
+.calculator-body {
+  max-width: 400px;
+  margin: auto;
+}
+
+.result {
+  height: 120px;
+  background-color: #00b1c2;
+  width: 100%;
+  color: white;
+}
+
+.result p {
+  font-size: 30px;
+  margin: 5px;
+}
+
+.button {
+  display: block;
+  background-color: #050584; /* Numpad color changed to dark blue */
+}
+
+button {
+  width: 25%;
+  height: 60px;
+  font-size: 20px;
+  color: black; /* Button text color changed to black */
+}
